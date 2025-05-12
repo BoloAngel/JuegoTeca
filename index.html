@@ -1,36 +1,94 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>JuegoTeca</title>
-    <link rel="stylesheet" href="estilos.css" id="logo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegoteca - Tu Guía Definitiva de Videojuegos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="overflow: hidden;">
-
-    <header id="header">
-        <table class="tabla">
-          <tr>
-            <td><a href="index.html">Índice</a></td>
-            <td><a href="inicio.html">Inicio</a></td>
-            <td><a href="juegos.html">Juegos</a></td>
-            <td><a href="curiosidades.html">Curiosidades</a></td>
-            <td><a href="suscribete.html">Suscribete</a></td>
-          </tr>
-        </table>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>JUEGOTECA</h1>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="guias.html">Guías</a></li>
+                <li><a href="consejos.html">Consejos</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+            </ul>
+        </nav>
     </header>
 
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Bienvenido a tu destino gaming</h2>
+                <p>Descubre guías, consejos y las últimas noticias del mundo de los videojuegos</p>
+            </div>
+        </section>
 
-    <div class="imagen-centro">
-        <img src="imagenes/logo.png" alt="LOGO" class="logo-img">
-    </div>
+        <section id="guias" class="section-cards">
+            <h2>Guías Paso a Paso</h2>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-image"></div>
+                    <h3>The Legend of Zelda</h3>
+                    <p>Guía completa para dominar Tears of the Kingdom</p>
+                </div>
+                <div class="card">
+                    <div class="card-image"></div>
+                    <h3>Elden Ring</h3>
+                    <p>Derrota a todos los jefes principales</p>
+                </div>
+                <div class="card">
+                    <div class="card-image"></div>
+                    <h3>Baldur's Gate 3</h3>
+                    <p>Guía de construcción de personajes</p>
+                </div>
+            </div>
+        </section>
 
-    <footer>
-        <p>
-            <a href="https://boloangel.github.io/JuegoTeca/" target="_blank">JuegoTeca</a> by <span>Angel</span> is marked with 
-            <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a>.
-        </p>
+        <section id="consejos" class="tips-section">
+            <h2>Consejos Prácticos</h2>
+            <div class="tips-grid">
+                <article class="tip-card">
+                    <h3>Mejora tu Aim</h3>
+                    <p>Técnicas avanzadas para FPS</p>
+                </article>
+                <article class="tip-card">
+                    <h3>Gestión de Recursos</h3>
+                    <p>Optimiza tu gameplay en RPGs</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="noticias" class="news-section">
+            <h2>Últimas Noticias</h2>
+            <div class="news-container">
+                <!-- Contenido de noticias -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Juegoteca</h3>
+                <p>Tu guía definitiva en el mundo gaming</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">YouTube</a>
+                </div>
+            </div>
+        </div>
     </footer>
-
 </body>
 </html>
